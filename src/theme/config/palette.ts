@@ -2,6 +2,7 @@ const palette = {
   primary: {
     light: "#ffffffe8",
     main: "#5674ea",
+    second: "rgb(108, 184, 255)",
   },
   secondary: {
     light: "#5ff536",

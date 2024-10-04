@@ -12,27 +12,26 @@ function Discovery() {
     <DiscoveryWrapper>
       <DiscoveryContainer>
         <DiscoveryArticle>
-          <DiscoveryFlag component={"div"} color="primary" font="Poppins">
-            MINICURSO GRATUITO – 05 A 11 DE AGOSTO
+          <DiscoveryFlag component={"span"} font="SansSerif">
+            MINICURSO GRATUITO – 04 A 10 DE NOVEMBRO
           </DiscoveryFlag>
           <header>
-            <Typography component={"h1"}>
-              Descubra o{" "}
+            <Typography component={"h1"} font="Lora">
+              Descubra o caminho para{" "}
               <Typography component={"span"} color="primary">
-                caminho
+                acabar com o sofrimento emocional
               </Typography>{" "}
-              para acabar com o{" "}
-              <Typography component={"span"} color="primary">
-                sofrimento emocional.
-              </Typography>
+              e ainda ser muito bem remunerado por isso.{" "}
             </Typography>
           </header>
-          <Typography component={"h2"} font="Poppins">
-            Obtenha ferramentas para conseguir ajudar pessoas e seja realizado
-            profissionalmente com isso.
+        </DiscoveryArticle>
+        <div className="container_form">
+          <Typography component={"p"} font="Poppins">
+            Preencha os dados abaixo para garantir a sua vaga no Minicurso
+            Terapeuta de Resultados.
           </Typography>
           <DiscoveryForm />
-        </DiscoveryArticle>
+        </div>
       </DiscoveryContainer>
     </DiscoveryWrapper>
   );

@@ -8,9 +8,9 @@ function CourseCertificate() {
   return (
     <CourseCertificateWrapper>
       <CourseCertificateContent>
-        <Typography component="h3" color="light">
+        <Typography component="h3" color="light" font="SansSerif">
           MINICURSO GRATUITO{" "}
-          <Typography component="span" color="primary">
+          <Typography component="span" font="SansSerif" color="primary">
             COM CERTIFICADO
           </Typography>
         </Typography>
@@ -21,16 +21,14 @@ function CourseCertificate() {
           participação.
         </Typography>
 
-        <Button
-          onClick={() => console.log("Hi!")}
-          variant="contained"
-          color="secondary"
-        >
+        <Button variant="contained" color="secondary">
           SIM, QUERO PARTICIPAR!
         </Button>
       </CourseCertificateContent>
 
-      <img src={CertificateImage} alt="course-certificate" />
+      <div className="cont_img">
+        <img src={CertificateImage} alt="course-certificate" />
+      </div>
     </CourseCertificateWrapper>
   );
 }

@@ -4,8 +4,7 @@ import Button from "../Button";
 export const DiscoveryFormWrapper = styled.div`
   width: 100%;
   background: rgba(61, 61, 61, 0.36);
-  padding: 20px;
-  border-left: 1px solid white;
+
   border-radius: ${({ theme }) => theme.measures.radius};
 
   & input {
@@ -15,6 +14,8 @@ export const DiscoveryFormWrapper = styled.div`
     border: none;
     width: 100%;
     padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 `;
 

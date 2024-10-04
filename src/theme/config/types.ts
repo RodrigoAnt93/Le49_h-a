@@ -1,5 +1,6 @@
 export type TPaletteValue = {
   light: string;
+  second: string;
   main: string;
   dark: string;
 };
@@ -8,12 +9,12 @@ export type TPalette = {
   primary: TPaletteValue;
   secondary: TPaletteValue;
   light: {
-    main: string
-    dark: string
+    main: string;
+    dark: string;
   };
   dark: {
-    light: string
-    main: string
+    light: string;
+    main: string;
   };
   stone: {
     main: string;

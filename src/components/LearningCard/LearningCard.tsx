@@ -6,14 +6,6 @@ function CardImage(props: any) {
   return <CardImageWrapper src={props.image} alt="jairsFace" />;
 }
 
-function CardNovo({ component, children }: any) {
-  return (
-    <CardBox>
-      <Typography component={component}>{children}</Typography>
-    </CardBox>
-  );
-}
-
 function LearningCard({
   title,
   date,
@@ -23,13 +15,15 @@ function LearningCard({
 }: any) {
   return (
     <CardWrapper>
-      <CardNovo component="span">{title}</CardNovo>
+      <CardBox>{title}</CardBox>
 
       <CardImage image={image} />
-      <CardNovo component="span">{date}</CardNovo>
+      <CardBox className="calender">{date}</CardBox>
 
-      <Typography component="p">{descriptionTitle}</Typography>
-      <Typography component="p" font="Poppins">
+      <Typography className={"text_title"} font="SansSerif" component="h2">
+        {descriptionTitle}
+      </Typography>
+      <Typography className={"text_description"} component="p" font="SansSerif">
         {description}
       </Typography>
     </CardWrapper>

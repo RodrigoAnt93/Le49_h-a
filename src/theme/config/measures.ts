@@ -3,7 +3,7 @@ const measures = {
   radius: "7px",
   container: `
     width: 100%;
-    max-width: 1216px;
+    max-width: 1200px;
     margin: 0 auto;
   `,
   breakpoints: {
