@@ -1,6 +1,7 @@
 import CourseCertificate from "../../containers/CourseCertificate";
 import Discovery from "../../containers/Discovery";
 import Learning from "../../containers/Learning";
+import Footer from "../../components/Footer";
 import { HomeWrapper } from "./styled";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <Discovery />
       <Learning />
       <CourseCertificate />
+      <Footer />
     </HomeWrapper>
   );
 }

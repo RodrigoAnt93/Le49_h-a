@@ -6,7 +6,7 @@ export const CourseCertificateWrapper = styled.section`
   justify-content: center;
   align-items: center;
   background: url("/BG-LOGO.webp") no-repeat center 100%;
-  padding-bottom: 80px;
+  padding-bottom: 4rem;
   box-sizing: border-box;
   gap: 5rem;
 
