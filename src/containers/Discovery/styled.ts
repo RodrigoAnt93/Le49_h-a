@@ -24,14 +24,14 @@ export const DiscoveryWrapper = styled.section`
   justify-content: center;
   width: 100%;
   padding: 2rem 2rem 8rem 2krem;
-  background-image: url("/BANNER-MOB.webp");
+  background-image: url("/Le49_h-a/BANNER-MOB.webp");
   background-size: contain;
   background-repeat: no-repeat;
   border-bottom: solid 1px ${({ theme }) => theme.palette.light.main};
   box-sizing: border-box;
 
   @media screen and (min-width: 1025px) {
-    background-image: url("/BANNER-miniusrso.webp");
+    background-image: url("/Le49_h-a/BANNER-miniusrso.webp");
     background-position: center;
     background-size: cover;
   }

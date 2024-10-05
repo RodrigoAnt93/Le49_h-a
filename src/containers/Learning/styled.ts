@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const LearningWrapper = styled.div`
-  background-image: url("/BG-LOGO.webp");
+  background-image: url("/Le49_h-a/BG-LOGO.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

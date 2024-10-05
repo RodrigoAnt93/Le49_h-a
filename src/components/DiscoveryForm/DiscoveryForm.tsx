@@ -14,6 +14,7 @@ type Inputs = {
 function FormAC() {
   const utm = window.location.search;
   const parems = useUTMParameters(utm);
+  console.log(utm, parems);
 
   const {
     register,
