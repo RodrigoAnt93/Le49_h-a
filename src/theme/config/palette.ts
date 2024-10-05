@@ -3,6 +3,7 @@ const palette = {
     light: "#ffffffe8",
     main: "#5674ea",
     second: "rgb(108, 184, 255)",
+    dark: "blak",
   },
   secondary: {
     light: "#5ff536",
@@ -10,6 +11,7 @@ const palette = {
   },
   light: {
     main: "#fff",
+    dark: "black",
   },
   dark: {
     main: "#070c1a",
