@@ -5,7 +5,7 @@ export const CourseCertificateWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/Le49_h-a/BG-LOGO.webp") no-repeat center 100%;
+  background: url("/le49_h-a/BG-LOGO.webp") no-repeat center 100%;
   padding-bottom: 4rem;
   box-sizing: border-box;
   gap: 5rem;

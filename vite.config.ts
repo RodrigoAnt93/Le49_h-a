@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/Le49_h-a",
+  base: "/le49_h-a",
 });
