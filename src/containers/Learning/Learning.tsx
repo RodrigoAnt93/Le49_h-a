@@ -22,28 +22,28 @@ function Learning() {
         <LearningCard
           image={imageOne}
           title="AULA 01"
-          date="04/11 ÀS 20H"
+          date=" 04/11 ÀS 20H"
           descriptionTitle="QUALQUER PESSOA PODE SER TERAPEUTA?"
           description="Você vai encontrar essa resposta e também vai ter um entendimento profundo sobre como você, seus pensamentos e suas emoções funcionam."
         />
         <LearningCard
           image={imageTwo}
           title="AULA 02"
-          date="06/11 ÀS 20H"
+          date=" 06/11 ÀS 20H"
           descriptionTitle="A RAIZ DE TODOS OS PROBLEMAS EMOCIONAIS"
           description="Já sentiu a terrível sensação de carregar frustrações, fracassos, viver ansioso, estar sempre triste ou com medo, e não saber o que exatamente ocasionou isso? Você vai se surpreender ao descobrir a raiz dos problemas emocionais!"
         />
         <LearningCard
           image={imageThree}
           title="AULA 03"
-          date="08/11 ÀS 20H"
+          date=" 08/11 ÀS 20H"
           descriptionTitle="A CHAVE MESTRA"
           description="Uma nova chave será revelada. Totalmente diferente das abordagens tradicionais que se concentram nos sintomas, ignorando a causa raiz. Você vai conhecer uma ferramenta que tem o poder de acabar com o sofrimento emocional."
         />
         <LearningCard
           image={imageFour}
           title="AULA 04"
-          date="10/11 ÀS 15H"
+          date=" 10/11 ÀS 15H"
           descriptionTitle="AULA FINAL"
           description="Você vai conhecer o único caminho para ser um Terapeuta de Resultados, dando fim no sofrimento emocional e início a uma transformação na sua vida!"
         />
