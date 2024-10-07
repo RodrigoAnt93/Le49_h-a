@@ -67,7 +67,7 @@ export const CourseCertificateContent = styled.div`
     line-height: 34px;
   }
 
-  button {
+  a button {
     max-width: 350px;
     margin-top: 22px;
   }
@@ -84,7 +84,7 @@ export const CourseCertificateContent = styled.div`
       text-align: left;
     }
 
-    button {
+    a {
       align-self: center;
     }
   }

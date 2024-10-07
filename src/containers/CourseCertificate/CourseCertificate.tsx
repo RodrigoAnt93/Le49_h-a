@@ -3,6 +3,7 @@ import Typography from "../../components/Typography";
 import { CourseCertificateWrapper, CourseCertificateContent } from "./styled";
 
 import CertificateImage from "../../assets/img/certificate.webp";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function CourseCertificate() {
   return (
@@ -23,9 +24,11 @@ function CourseCertificate() {
               sua participação.
             </Typography>
 
-            <Button variant="contained" color="secondary">
-              SIM, QUERO PARTICIPAR!
-            </Button>
+            <AnchorLink href="#anchor">
+              <Button variant="contained" color="secondary">
+                SIM, QUERO PARTICIPAR!
+              </Button>
+            </AnchorLink>
           </CourseCertificateContent>
 
           <div className="cont_img">

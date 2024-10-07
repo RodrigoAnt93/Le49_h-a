@@ -9,7 +9,7 @@ import {
 
 function Discovery() {
   return (
-    <DiscoveryWrapper>
+    <DiscoveryWrapper id="anchor">
       <DiscoveryContainer>
         <DiscoveryArticle>
           <DiscoveryFlag component={"span"} font="SansSerif">

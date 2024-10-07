@@ -24,6 +24,13 @@ export const LearningWrapper = styled.div`
     margin: 0;
   }
 
+  button > a {
+    display: inline-block;
+    width: max-content;
+    text-decoration: none;
+    color: white;
+  }
+
   @media screen and (min-width: 1025px) {
     h2 {
       font-size: 3.6rem;

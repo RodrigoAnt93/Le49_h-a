@@ -6,6 +6,7 @@ import imageOne from "../../assets/img/AULA-01-NOVO.webp";
 import imageTwo from "../../assets/img/AULA-02-NOVO.webp";
 import imageThree from "../../assets/img/AULA-03-NOVO.webp";
 import imageFour from "../../assets/img/AULA-04-NOVO.webp";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Learning() {
   return (
@@ -48,9 +49,11 @@ function Learning() {
         />
       </BoxWrapper>
 
-      <Button variant="contained" color="secondary">
-        SIM, QUERO PARTICIPAR!
-      </Button>
+      <AnchorLink href="#anchor">
+        <Button variant="contained" color="secondary">
+          SIM, QUERO PARTICIPAR!
+        </Button>
+      </AnchorLink>
     </LearningWrapper>
   );
 }
