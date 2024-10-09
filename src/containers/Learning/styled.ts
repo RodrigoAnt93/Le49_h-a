@@ -1,10 +1,6 @@
 import styled from "@emotion/styled";
 
 export const LearningWrapper = styled.div`
-  background-image: url("/le49_h-a/BG-LOGO.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   background-color: ${(props) => props.theme.palette.dark.main};
   height: auto;
   display: flex;

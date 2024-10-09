@@ -27,7 +27,6 @@ export const DiscoveryWrapper = styled.section`
   background-image: url("/le49_h-a/BANNER-MOB.webp");
   background-size: contain;
   background-repeat: no-repeat;
-  border-bottom: solid 1px ${({ theme }) => theme.palette.light.main};
   box-sizing: border-box;
 
   @media screen and (min-width: 1025px) {

@@ -5,6 +5,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import Typography from "../Typography";
 import Button from "../Button";
 import { useUTMParameters } from "use-utm-parameters";
+import { useLocation } from "react-router-dom";
 
 type Inputs = {
   email: string;
@@ -12,9 +13,8 @@ type Inputs = {
 };
 
 function FormAC() {
-  const utm = window.location.search;
-  const parems = useUTMParameters(utm);
-  console.log(utm, parems);
+  const utm = useLocation();
+  const parems = useUTMParameters(utm.search);
 
   const {
     register,
@@ -83,7 +83,7 @@ function FormAC() {
       )}
       {!state.isSubmitted && !state.isError && (
         <fieldset>
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form id="form_lead" onSubmit={handleSubmit(onSubmit)}>
             <input
               type="email"
               id="email"

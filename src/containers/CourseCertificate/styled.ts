@@ -5,7 +5,6 @@ export const CourseCertificateWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/le49_h-a/BG-LOGO.webp") no-repeat center 100%;
   padding-bottom: 4rem;
   box-sizing: border-box;
   gap: 5rem;
@@ -20,9 +19,7 @@ export const CourseCertificateWrapper = styled.section`
   }
 
   img {
-    transform: scale(1.12);
-    width: 75vw;
-    max-width: 75%;
+    width: 85vw;
   }
 
   @media screen and (min-width: 1025px) {
@@ -72,6 +69,12 @@ export const CourseCertificateContent = styled.div`
     margin-top: 22px;
   }
 
+  @media screen and (min-width: 769px) {
+    p {
+      font-size: 2.5vw;
+    }
+  }
+
   @media screen and (min-width: 1025px) {
     align-items: flex-start;
     h3 {
@@ -80,12 +83,8 @@ export const CourseCertificateContent = styled.div`
     }
 
     p {
-      font-size: 2.5rem;
+      font-size: 1.5vw;
       text-align: left;
-    }
-
-    a {
-      align-self: center;
     }
   }
 `;
